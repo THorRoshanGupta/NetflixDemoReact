@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.big-font{
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    position: relative;
+    
+}
+.medium-font {
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+.small-font {
+    font-size: 25px;
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+.smaller-font{
+    font-size: 15px;
+        /* font-weight: bolder; */
+        color:white;
+       /* filter: opacity(100%); */
+
+}

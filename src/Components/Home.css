@@ -1,0 +1,31 @@
+
+.home::after{
+    content: '';
+   
+    background: radial-gradient(transparent 30%, #000 70%);
+    position: absolute;
+    top:0px;
+    z-index: -1;
+    width: 100vw;
+    height: 80vh;
+    filter:opacity(100%)
+    /* filter: brightness(80%); */
+    
+   
+
+
+}
+.home{
+    background-image: url('../assets/home.jpg') ;
+    
+    
+    
+    z-index:-1;
+   
+        position: fixed;
+        width: 100vw;
+        height: 80vh;
+        /* background-color: black; */
+        /* mix-blend-mode: soft-light; */
+        
+}

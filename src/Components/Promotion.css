@@ -1,0 +1,46 @@
+.message{
+    width: 50vw;
+    position: relative;
+    left: 50px;
+    
+}
+.second-content-aligner{
+    position: absolute;
+        height: 60vh;
+        width: 100vw;
+        background-color: black;
+        top: 81vh;
+        z-index: 1;
+        display: flex;
+            flex-direction: row;
+        
+            justify-content: flex-start;
+            align-items: center;
+        
+            /* background-color: red; */
+
+}
+.text{
+    display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+       
+       
+
+}
+.tv{
+    width: 600px;
+    height: 400px;
+    background-image: url('../assets/tv.png');
+    z-index: 10;
+    
+}
+.check{
+    z-index: 10;
+    width: 600px;
+        height: 400px;
+}
+/* .clip{
+    background-clip: url('../assets/video/timon.webp');
+} */

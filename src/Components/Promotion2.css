@@ -1,0 +1,109 @@
+.third-message {
+    width: 50vw;
+    position: relative;
+    
+
+}
+
+.third-content-aligner {
+    position: absolute;
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    top: 142vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    /* background-color: red; */
+
+}
+
+.third-text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+
+
+}
+
+
+.image{
+    height: 400px;
+    width: 600px;
+}
+.download{
+    width: 400px;
+    height: 90px;
+    background-color: black;
+    border:  solid 2px grey;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start
+}
+.clip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    /* width: 400px; */
+    position: relative;
+    height: 80px;
+    left: 10px;
+    margin-right: 40px;
+    font-weight: bold;
+
+}
+
+.down{
+    color: blue;
+}
+.symbol-download{
+   /* animation: dowloading-img 4s linear 1s infinite normal; */
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:20px;
+    margin-left:70px ;
+    border-radius: 50%;
+    
+    z-index: 10;
+    /* background-color: aqua; */
+    /* border: solid 1px white; */
+}
+
+/* @keyframes dowloading-img {
+    
+    25% {
+        border-radius: 50%;
+        border:  solid 2px blue;
+        
+
+    } 
+        50% {
+            border-radius: 50%;
+            border: solid 2px blue;
+    
+    
+        }
+ 
+        100% {
+            border-radius: 50%;
+            border: solid 4px blue;
+            /* background-color: blue; */
+            
+            
+    
+        /* } */
+/* } */ 
