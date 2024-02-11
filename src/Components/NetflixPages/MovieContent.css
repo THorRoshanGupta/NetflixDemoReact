@@ -1,0 +1,11 @@
+.desc{
+    height: 30vh;
+    width: 35vw;
+    font-size: larger;
+    color: aliceblue;
+    z-index: 2;
+    /* top:40px; */
+    position: relative;
+    left:50px;
+
+}

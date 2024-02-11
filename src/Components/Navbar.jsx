@@ -10,9 +10,14 @@ export default function Navbar() {
   }
   return (
     <div className='nav'>
-        <div className="logo">NETFLIX</div>
+        <div className="logo" onClick={()=>nav("/")}>NETFLIX</div>
         <div className='second-half  '>
-             <button className="langugage">{'\u3042'}A English {'\u25BE'}</button>
+             <select className="langugage" >
+                
+              <option value="english">{'\u3042' +"A English" }</option>
+              <option value="english">हिंदी</option>
+             
+             </select>
              <button className="signin" onClick={redirect}>Sign In</button>
         </div>
     </div>

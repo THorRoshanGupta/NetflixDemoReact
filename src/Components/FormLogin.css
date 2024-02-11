@@ -7,21 +7,80 @@
     
 
 }
-.password{
+.component{
     width: 100%;
-    height: 55px;
-    background-color: grey;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    /* max-width: ; */
+    /* background-color: aliceblue; */
+    padding: 10px,0px;
+    /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        z-index: 1; */
+        
+        margin-bottom: 20px;
+}
+.component label{
+    position: relative;
+    top:-35px;
+    display: block;
+    /* color: red; */
+    
+    pointer-events: none;
+    /* transform: translateY(10px); */
+    
 
 }
-/* .component{
+
+.component input{
     width: 100%;
-    height: 60px;
-    background-color: grey;
-    margin-bottom: 40px;
-    border-radius: 10px;
-} */
+    border: none;
+    /* display: block; */
+    /* left: 10px; */
+    height: 50px;
+   background:rgb(63, 60, 60) ;
+   /* color: rgb(63, 60, 60); */
+    font-size: large;
+    
+    color: white;
+    padding-left: 10px;
+
+}
+.component label{
+    left: 10px;
+}
+.component input:active {
+    background-color: aliceblue;
+}
+.component input:focus{
+    /* border: 1px solid red; */
+    border-bottom: 2px solid orange;
+    font-size: medium;
+    position: relative;
+    background-color: rgb(39, 34, 34);
+    /* left: 10px; */
+    
+    color: white;
+    
+  
+}
+
+.component input:focus-visible ~ label,
+.component input:user-valid ~ label {
+    /* border: 2px solid #53c9fc; */
+    /* color: red; */
+    position: relative;
+    color: white;
+    left: 10px;
+    transform: translateY(-18px);
+    font-size: smaller;
+    transition: all 400ms ease-in-out;
+    
+
+
+}
+
+
 .form-internal{
     width: 70%;
     height:80%;
@@ -29,10 +88,11 @@
 }
 
 
+
 .form-component{
     width: 30vw;
     height: 60vh;
-    background-color: black;
+    background-color:black;
     z-index: 10;
     opacity: 80%;
     color: white;
@@ -43,9 +103,16 @@
         z-index: 1;
 
 }
+
 .sigin{
     display: block;
     position: relative;
     /* color: red; */
     opacity: 100%;
+}
+
+.error{
+    color: red;
+    position: relative;
+    top:-30px;
 }
